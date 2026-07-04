@@ -26,9 +26,15 @@ gcc expense_tracker.c -o expense_tracker
 5. Choose "Delete Expense" to remove a specific entry
 6. Choose "Exit" to close the program
 
+## How It Works
+- Each expense is stored as a line in `expense_tracker.csv` in the format `date,category,description,amount`
+- Reading back a line uses `sscanf` with the `%[^,]` specifier, which reads a field up to the next comma
+- Totaling by category keeps a running list of categories seen so far — if a category already exists, its total is updated; otherwise, it's added as a new entry
+- Deleting an expense works by reading the file line by line into a temporary file, skipping the one to delete, then replacing the original file with the temp file
+
 ## Output
 - Expenses are stored in `expense_tracker.csv`, created automatically on first run
-- Data is saved in the format: `date,category,description,amount`
+- Each expense's details are displayed in a formatted block
 - All output is displayed directly in the terminal
 
 ## What I Learned
