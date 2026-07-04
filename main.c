@@ -189,7 +189,7 @@ void deleteExpense(int choice)
 int main()
 {
     int opt;
-    printf("---------- EXPENSE TRACKER ----------\n\n");
+    printf("\n---------- EXPENSE TRACKER ----------\n\n");
     printf("WELCOME!\n\n");
     printf("This tool helps you track your daily expenses.\n");
     printf("You can add expenses, view them, see totals, analyze spending by category and can delete expenses as well.\n\n");
