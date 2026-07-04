@@ -10,7 +10,8 @@ A simple command-line expense tracker built in C to help track daily spending.
 - Delete an expense
 
 ## Tech Stack
-- Language: C
+- Language: `C`
+- Libraries: `string.h`
 
 ## How to Run
 ```bash
