@@ -14,7 +14,7 @@ A simple command-line expense tracker built in C to help track daily spending.
 
 ## How to Run
 ```bash
-gcc expense_tracker.c -o expense_tracker
+gcc main.c -o expense_tracker
 ./expense_tracker
 ```
 
