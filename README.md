@@ -38,7 +38,7 @@ gcc main.c -o expense_tracker
 - Each expense's details are displayed in a formatted block
 - All output is displayed directly in the terminal
 
-## What I Learned
+## What I Learnt
 - File I/O in C (`fopen`, `fgets`, `fprintf`, `remove`, `rename`)
 - Parsing CSV lines with string functions like `sscanf` and `strcspn` and format specifiers like `%[^,]` and `%*[^,]`
 - Implementing delete-by-rewrite using a temporary file
